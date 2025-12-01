@@ -15,15 +15,16 @@ advent-of-code/
 Ogni cartella contiene:
 
 - `input.txt` - Input del puzzle
-- `solution.py` (o linguaggio utilizzato) - Soluzione del puzzle
-- `README.md` (opzionale) - Spiegazione della soluzione
+- `main.go` - Soluzione per il giorno specifico
+- `part1.go` - Soluzione per la Parte 1
+- `part2.go` - Soluzione per la Parte 2
 
 ## 🚀 Come Usare
 
 Per eseguire la soluzione di un giorno:
 
 ```bash
-python dayXX/solution.py
+go run ./dayXX/
 ```
 
 ## 📊 Progresso
@@ -41,7 +42,6 @@ python dayXX/solution.py
 
 ## 📝 Note
 
-Aggiungi qui note specifiche, trucchi interessanti o pattern ricorrenti che scopri durante l'AoC.
 
 ---
 
