@@ -14,7 +14,6 @@ advent-of-code/
 
 Each day directory typically contains:
 
-- `input.txt` - The puzzle input
 - `main.go` - The day's executable (or entry point)
 - `part1.go` - Part 1 solution (optional)
 - `part2.go` - Part 2 solution (optional)
