@@ -1,47 +1,51 @@
 # Advent of Code 2025
 
-Le mie soluzioni per l'[Advent of Code 2025](https://adventofcode.com/2025).
+My solutions for [Advent of Code 2025](https://adventofcode.com/2025).
 
-## 📋 Struttura del Progetto
+## 📋 Project Structure
 
 ```bash
 advent-of-code/
 ├── day01/
 ├── day02/
 ├── ...
-└── day12/
+└── day25/
 ```
 
-Ogni cartella contiene:
+Each day directory typically contains:
 
-- `input.txt` - Input del puzzle
-- `main.go` - Soluzione per il giorno specifico
-- `part1.go` - Soluzione per la Parte 1 (opzionale)
-- `part2.go` - Soluzione per la Parte 2 (opzionale)
+- `input.txt` - The puzzle input
+- `main.go` - The day's executable (or entry point)
+- `part1.go` - Part 1 solution (optional)
+- `part2.go` - Part 2 solution (optional)
 
-## 🚀 Come Usare
+## 🚀 How to run
 
-Per eseguire la soluzione di un giorno:
+To run a day's solution locally:
 
 ```bash
-go run ./dayXX/
+go run ./day01/
 ```
 
-## 📊 Progresso
+Or run a specific file:
 
-| Giorno | Parte 1 | Parte 2 | Stato |
-|--------|---------|---------|-------|
-| 1      |   ⭐️   |    ⭐️  | ✅     |
-| 2      |       |        |    |
-| ...    |        |        |       |
+```bash
+go run ./day01/main.go
+```
 
-## 🔧 Tecnologie
+## 📊 Progress
 
-- **Linguaggio**: Go
-- **Versione**: 1.25.4
+| Day | Part 1 | Part 2 | Status |
+|-----|--------|--------|--------|
+| 1   | ⭐️     | ⭐️     | ✅     |
+| 2   |        |        |        |
+| ... |        |        |        |
 
-## 📝 Note
+## 🔧 Technologies
+
+- **Language**: Go
+- **Version**: 1.25.4
 
 ---
 
-### Iniziato: 1 Dicembre 2025
+### Started: December 1, 2025
