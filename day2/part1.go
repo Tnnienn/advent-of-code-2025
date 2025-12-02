@@ -20,7 +20,7 @@ func part1() {
 	sum := 0
 
 	for _, r := range ranges {
-		fmt.Println("Processing range:", r)
+		//fmt.Println("Processing range:", r)
 		ids := strings.Split(r, "-")
 		firstId, err := strconv.Atoi(ids[0])
 		if err != nil {
@@ -48,14 +48,13 @@ func part1() {
 				}
 			}
 			if found {
-				fmt.Println("Invalid id: ", id)
+				//fmt.Println("Invalid id: ", id)
 				sum += id
 			}
 
 		}
 
-		fmt.Println("Current sum:", sum)
-
 	}
+	fmt.Println("Final sum part 1:", sum)
 
 }
